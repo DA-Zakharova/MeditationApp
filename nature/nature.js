@@ -2,6 +2,10 @@ const timer = 5;
 let amountTime = timer * 60;
 let timerID = null;
 const mainPar = document.querySelector(".mainText");
+mainPar.addEventListener("click", function() {
+    document.querySelector("#player").play();
+    document.querySelector("#myVideo").play();
+})
 
 function calculateTime() {
     let minutes = Math.floor(amountTime / 60);
