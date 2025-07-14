@@ -1,0 +1,25 @@
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.mainText {
+    cursor: pointer;
+    font-family: "Roboto Mono", monospace;
+    font-size: 45px;
+    color: #537D5D;
+    background: linear-gradient(to right, #e9f7c3, #f0f3f5);
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 10px;
+}
