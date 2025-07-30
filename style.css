@@ -27,6 +27,7 @@ h1 {
 }
 
 .btn {
+    opacity: 1;
     background-color: #273F4F;
     border: none;
     border-radius: 10px;
